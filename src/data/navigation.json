@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "text": "Home",
+        "href": "/"
+    },
+    {
+        "id": 2,
+        "text": "Movie",
+        "href": "/movie"
+    },
+     {
+        "id": 3,
+        "text": "Faworite",
+        "href": "/faworite"
+    }
+] 
