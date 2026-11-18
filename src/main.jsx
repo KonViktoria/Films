@@ -10,6 +10,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
 
+{/* ThemeProvider предоставляет тему оформления.
+          Пока передаём пустой объект {} */}
     <ThemeProvider theme={{}}>
       <App />
     </ThemeProvider>
@@ -17,3 +19,5 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </StrictMode>,
 )
+    {/* BrowserRouter(маршутезация) управляет навигацией.
+     Например: /, /movie, /faworite  */}

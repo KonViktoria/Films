@@ -7,7 +7,10 @@ export const getPopular=async(page)=>{
         page,
     })
 const url = `https://api.themoviedb.org/3/movie/popular?${searchParams}`;
+
+ // Отправляем запрос и ожидаем ответ.
 const response = await axios.get(url)
+  // Возвращаем ответ.
 return response
 }
 

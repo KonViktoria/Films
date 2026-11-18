@@ -1,3 +1,5 @@
 export const Cast=()=>{
-    return<>Cast</>
+    return<>
+    cast
+    </>
 }
